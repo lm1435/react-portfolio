@@ -1,5 +1,6 @@
 {
   "name": "luismeza.io",
+  "homepage" : "https://luismeza.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
