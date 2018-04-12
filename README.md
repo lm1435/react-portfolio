@@ -1,3 +1,3 @@
-# Building first react portfolio site.#
+# Building first react portfolio site. #
 
 ## check it out at luismeza.io ##
