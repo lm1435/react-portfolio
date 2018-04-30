@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavigationContainer from './navigation_container'
+import NavigationContainer from './Navigation/NavigationContainer'
 
 class App extends Component {
   render() {
