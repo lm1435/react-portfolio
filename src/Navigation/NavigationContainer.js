@@ -1,32 +1,15 @@
 import React from 'react';
-import NavigationItems from './NavigationItems';
 import './NavigationContainer.css';
+import NavigationItem from './NavigationItem';
+import navigationData from './NavigationData.json';
 
 const NavigationContainer = () => {
-  const navigationItems = [
-    {
-      linkText: 'home',
-      url: '#home'
-    }, 
-    {
-      linkText: 'about',
-      url: '#about'
-    }, 
-    {
-      linkText: 'portfolio',
-      url: '#portfolio'
-    }, 
-    {
-      linkText: 'contact',
-      url: '#contact-me'
-    }];
   return (
-
     <ul className="navigation-header">
-      <NavigationItems navigationItems={navigationItems}/>
+      {navigationData.data.map((navigationItem, i) => {
+        return <NavigationItem key={i} navigation={navigationItem}/>
+      })}
     </ul>
-
-
   );
 }
 

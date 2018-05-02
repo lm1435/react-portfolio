@@ -1,0 +1,18 @@
+{"data" : [
+  {
+    "linkText": "home",
+    "url": "#home"
+  }, 
+  {
+    "linkText": "about",
+    "url": "#about"
+  }, 
+  {
+    "linkText": "portfolio",
+    "url": "#portfolio"
+  }, 
+  {
+    "linkText": "contact",
+    "url": "#contact-me"
+  }
+]}
