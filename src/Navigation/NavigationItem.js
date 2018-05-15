@@ -1,14 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './NavigationItem.css';
 
-export default class NavigationItem extends Component {
-  constructor(props) {
-    super(props)
-   
-  }
-
-  render() {
-    var navigationData = this.props.navigation;
+export default function NavigationItem (props) {
+    var navigationData = props.navigation;
     return (
       <li>
         <a href={navigationData.url}>
@@ -16,5 +10,4 @@ export default class NavigationItem extends Component {
         </a>
       </li>
     )
-  }
 }

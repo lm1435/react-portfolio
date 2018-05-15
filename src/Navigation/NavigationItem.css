@@ -1,4 +1,32 @@
+.navigation-header li {
+    margin: 0 15px;
+}
+.navigation-header li:first-of-type {
+    margin-right: auto;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.navigation-header li:first-of-type span {
+    border: 3px solid white;
+    padding: .3em 0;
+}
+
+.navigation-header li:first-of-type p {
+    display: inline;
+    padding: .3em;
+}
+
+.navigation-header li:first-of-type p:first-of-type {
+    color: white;
+    background: grey;
+}
+
+.navigation-header li:first-of-type p:last-of-type {
+    color: grey;
+}
+
 .navigation-header a {
     text-decoration: none;
-    color: black;
+    color: grey;
 }
