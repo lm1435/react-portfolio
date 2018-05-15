@@ -1,14 +1,14 @@
 import React from 'react';
 import './NavigationContainer.css';
 import NavigationItem from './NavigationItem';
-import NavigationLogo from './NavigationLogo.js';
+import NavigationIcon from './NavigationIcon.js';
 import navigationData from './NavigationData.json';
 
 const NavigationContainer = () => {
   return (
     <header>
       <ul className="navigation-header">
-        <NavigationLogo />
+        <NavigationIcon />
         {navigationData.data.map((navigationItem, i) => {
           return <NavigationItem key={i} navigation={navigationItem}/>
         })}
