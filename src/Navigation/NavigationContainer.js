@@ -6,14 +6,14 @@ import navigationData from './NavigationData.json';
 
 const NavigationContainer = () => {
   return (
-    <header>
+    <nav>
       <ul className="navigation-header">
         <NavigationIcon />
-        {navigationData.data.map((navigationItem, i) => {
-          return <NavigationItem key={i} navigation={navigationItem}/>
+        {navigationData.data.map(navigationItem => {
+          return <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/>
         })}
       </ul>
-    </header>
+    </nav>
   );
 }
 
