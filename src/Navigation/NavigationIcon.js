@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function NavigationIcon () {
+const NavigationIcon = () => {
     return (
         <li>
             <a href="/">
@@ -12,3 +12,5 @@ export default function NavigationIcon () {
         </li>
     );
 }
+
+export default NavigationIcon;

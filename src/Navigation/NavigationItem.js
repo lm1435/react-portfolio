@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavigationItem.css';
 
-export default function NavigationItem (props) {
+const NavigationItem = (props) => {
     var navigationData = props.navigation;
     return (
       <li>
@@ -11,3 +11,5 @@ export default function NavigationItem (props) {
       </li>
     )
 }
+
+export default NavigationItem;
