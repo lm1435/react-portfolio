@@ -1,32 +1,48 @@
-.navigation-header li {
-    margin: 0 15px;
-}
-.navigation-header li:first-of-type {
+@media (min-width: 0) {
+  nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+  }
+
+  .navigation-header li {
+    margin: 0 3px;
+  }
+  
+  .navigation-header li:first-of-type {
     margin-right: auto;
     font-size: 1em;
     font-weight: lighter;
-}
-
-.navigation-header li:first-of-type span {
+  }
+  
+  .navigation-header li:first-of-type span {
     border: 3px solid white;
     padding: .3em 0;
-}
-
-.navigation-header li:first-of-type p {
+  }
+  
+  .navigation-header li:first-of-type p {
     display: inline;
     padding: .3em;
-}
-
-.navigation-header li:first-of-type p:first-of-type {
+  }
+  
+  .navigation-header li:first-of-type p:first-of-type {
     color: white;
     background: grey;
-}
-
-.navigation-header li:first-of-type p:last-of-type {
+  }
+  
+  .navigation-header li:first-of-type p:last-of-type {
     color: grey;
-}
-
-.navigation-header a {
+  }
+  
+  .navigation-header a {
     text-decoration: none;
     color: grey;
+  }
+}
+
+@media(min-width: 420px) {
+  .navigation-header li {
+    margin: 0 15px;
+  }
 }

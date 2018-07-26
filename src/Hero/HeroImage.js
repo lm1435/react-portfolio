@@ -16,7 +16,7 @@ const HeroImage = () => {
                   Pluviophile
                 </p>
                 <p>
-                  Techy
+                  Tech Enthusiast
                 </p>
             </div>
         </div>

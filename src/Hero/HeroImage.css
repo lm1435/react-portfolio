@@ -6,15 +6,26 @@
     background-position: left;
     background-size: cover;
 }
+
 .hero-image div {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: -5% -28% 0 0;
+    margin: 0 -15% 0 0;
 }
+
 .hero-image p, .hero-image h2, .hero-image h1 {
     color: #fff;
-    font-size: 3em;
+    font-size: 1.5em;
     margin: 5px;
     font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .hero-image p, .hero-image h2, .hero-image h1 {
+    font-size: 3em;
+  }
+  .hero-image div {
+    margin: -5% -28% 0 0;
+}
 }

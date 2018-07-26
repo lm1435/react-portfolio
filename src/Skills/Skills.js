@@ -4,7 +4,7 @@ import './Skills.css';
 const Skills = () => {
 	var images = [ 'html', 'css', 'javascript', 'react', 'jquery', 'bootstrap', 'gulp', 'sass' ];
 	return (
-    <div className="skill-set">
+    <div className="skill-set" id="skills">
       <h3>Skills</h3>
       <div className="image-wrapper">
         {images.map((image) => {
