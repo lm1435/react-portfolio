@@ -3,7 +3,7 @@ import './HeroImage.css';
 import mainImage from './images/homepage.png'
 
 const HeroImage = () => {
-    return(
+    return (
         <div className="hero-image" style={{backgroundImage: "url(" + mainImage + ")"}}>
             <div>
                 <h1>

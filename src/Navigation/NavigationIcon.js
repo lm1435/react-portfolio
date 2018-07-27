@@ -3,7 +3,7 @@ import React from 'react';
 const NavigationIcon = () => {
     return (
         <li>
-            <a href="/">
+            <a href="#home">
                 <span>
                     <p>LUIS</p>
                     <p>MEZA</p>
