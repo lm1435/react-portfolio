@@ -4,6 +4,10 @@
     "url": "#home"
   }, 
   {
+    "linkText": "About",
+    "url": "#about"
+  }, 
+  {
     "linkText": "Skills",
     "url": "#skills"
   }, 

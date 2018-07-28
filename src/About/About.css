@@ -4,14 +4,21 @@
 
 .about-me-text {
   display: flex;
+  font-weight: 500;
+  font-size: 1.1em;
   justify-content: space-around;
 }
 
-.about-me-text .left {
+.left {
+  width: 30%;
   text-align: left;
 }
 
-.about-me-text .right {
-  width: 40%;
+.left div {
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 30%;
   text-align: right;
 }

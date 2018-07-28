@@ -1,0 +1,16 @@
+.portfolio-images-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio-image {
+  text-align: center;
+  width: 40%;
+  margin-bottom: 5%;
+}
+
+.portfolio-image p {
+  width: 60%;
+  margin: 2% auto;
+}

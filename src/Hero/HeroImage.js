@@ -4,7 +4,7 @@ import mainImage from './images/homepage.png'
 
 const HeroImage = () => {
     return (
-        <div className="hero-image" style={{backgroundImage: "url(" + mainImage + ")"}}>
+        <div className="hero-image" id="home" style={{backgroundImage: "url(" + mainImage + ")"}}>
             <div>
                 <h1>
                   Luis Meza

@@ -1,0 +1,24 @@
+{ 
+  "data": [
+    {
+      "image": "ashley-furniture",
+      "text": "Ashley Furniture cart redesign to help customers through the check out process.",
+      "link": "https://ashleyfurniture.com"
+    },
+    {
+      "image": "old-website",
+      "text": "Old portfolio website created in Jquery, HTML and CSS.",
+      "link": "old.luismeza.com"
+    },
+    {
+      "image": "erin-condren",
+      "text": "Career page built with responsive ideologies.",
+      "link": "https://www.erincondren.com/careers"
+    },
+    {
+      "image": "sweet-treats",
+      "text": "Freelance website I created for a local Austin bakery.",
+      "link": "https://sweetbakery.bitballoon.com"
+    }
+  ]
+}
