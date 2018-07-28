@@ -6,6 +6,15 @@
     width: 100%;
   }
 
+  .navigation-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+
   .navigation-header li {
     margin: 0 3px;
   }
@@ -41,9 +50,21 @@
   }
 }
 
+
+
 @media (max-width: 320px) {
   .navigation-header li:first-of-type {
     display: none;
+  }
+}
+
+@media(max-width: 420px) {
+  .navigation-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
   }
 }
 

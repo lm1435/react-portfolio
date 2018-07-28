@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavigationContainer.css';
+import './Navigation.css';
 import NavigationItem from './NavigationItem';
 import NavigationIcon from './NavigationIcon.js';
 import navigationData from './NavigationData.json';
