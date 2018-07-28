@@ -1,11 +1,12 @@
 import React from 'react';
 import './Skills.css';
+import HeaderText from '../Text/HeaderText';
 
 const Skills = () => {
 	var images = [ 'html', 'css', 'javascript', 'react', 'jquery', 'bootstrap', 'gulp', 'sass' ];
 	return (
     <div className="skill-set" id="skills">
-      <h3>Skills</h3>
+      <HeaderText text="Skills" />
       <div className="image-wrapper">
         {images.map((image) => {
           return (

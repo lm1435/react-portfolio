@@ -11,16 +11,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 0 -15% 0 0;
 }
 
 .hero-image p, .hero-image h2, .hero-image h1 {
     color: #fff;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: end;
     margin: 5px;
     font-weight: 400;
 }
-
+@media (min-width: 420px) {
+  .hero-image div {
+    margin: 0 -30% 0 0;
+  }
+}
 @media (min-width: 768px) {
   .hero-image p, .hero-image h2, .hero-image h1 {
     font-size: 3em;

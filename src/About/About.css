@@ -1,0 +1,17 @@
+.about-me {
+  text-align: center;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me-text .left {
+  text-align: left;
+}
+
+.about-me-text .right {
+  width: 40%;
+  text-align: right;
+}

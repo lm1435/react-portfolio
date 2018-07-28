@@ -41,6 +41,12 @@
   }
 }
 
+@media (max-width: 320px) {
+  .navigation-header li:first-of-type {
+    display: none;
+  }
+}
+
 @media(min-width: 420px) {
   .navigation-header li {
     margin: 0 15px;
