@@ -1,0 +1,24 @@
+@media (min-width: 0) {
+  #contact {
+    text-align: center;
+  }
+  .mail {
+    color: grey;
+    display: inline-block;
+    margin: 10px auto 50px;
+  }
+  .contact-images {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-images {
+    justify-content: center;
+  }
+
+  .contact-images a:nth-child(2) {
+    margin-left: 20px;
+  }
+}

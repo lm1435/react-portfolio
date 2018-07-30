@@ -1,0 +1,19 @@
+{ 
+  "data": [
+    {
+      "image": "github",
+      "text": "github logo",
+      "link": "https://github.com/lm1435"
+    },
+    {
+      "image": "linkedin",
+      "text": "linkedin logo",
+      "link": "https://linkedin.com/in/mezaluisadrian"
+    },
+    {
+      "image": "twitter",
+      "text": "twitter logo",
+      "link": "http://twitter.com/THELuisMeza"
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 @media (min-width: 0) {
-    .header {
+  .header {
     text-align: center;
     font-size: 2em;
     color: grey;
+    padding: 1.5em;
   }
 }
 
 @media (min-width: 768px) {
   .header {
-    font-size: 3em;    
+    font-size: 3em;  
+    padding: 1em;  
   }
 }
