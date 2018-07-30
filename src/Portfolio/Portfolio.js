@@ -11,7 +11,7 @@ const Portfolio = () => {
         {portfolioData.data.map((data) => {
           return (
             <div className="portfolio-image">
-              <a href={data.link}>
+              <a href={data.link} target="_blank">
                 <img key={data.image} alt="logo" src={require(`./images/${data.image}.png`)} />
               </a>
               <p>{data.text}</p>
