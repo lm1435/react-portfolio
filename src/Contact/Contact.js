@@ -8,7 +8,7 @@ import contactData from './Contact.json';
 const Contact = () => {
   return (
     <div id="contact"> 
-      <HeaderText text="Contact" />
+      <HeaderText color={'white'} text="Contact" />
       <Text text="Im currently working at Ashley Furniture, building amazing user experiences."/>
       <Text text="Feel free to reach out to me."/>
       <a className="mail" href="mailto:luismeza01@gmail.com?subject=You're AWESOME!, we should connect">Email me</a>

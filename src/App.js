@@ -5,7 +5,7 @@ import HeroImage from './Hero/HeroImage';
 import Skills from './Skills/Skills';
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
-import Contact from './Contact/Contact';
+import GoogleMap from './Contact/GoogleMap';
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
         <About />
         <Skills />
         <Portfolio />
-        <Contact />
+        <GoogleMap />
       </div>
     );
   }

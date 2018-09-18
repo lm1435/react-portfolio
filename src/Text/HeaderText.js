@@ -3,7 +3,7 @@ import './HeaderText.css';
 
 const HeaderText = (props) => {
     return (
-      <h3 className="header">
+      <h3 className="header" style={{'color': props.color}}>
         {props.text}
       </h3>
     ) 

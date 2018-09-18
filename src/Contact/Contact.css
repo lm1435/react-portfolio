@@ -1,9 +1,11 @@
 @media (min-width: 0) {
   #contact {
     text-align: center;
+    margin-top: -600px;
+    color: #fff;
   }
   .mail {
-    color: grey;
+    color: #fff;
     display: inline-block;
     margin: 10px auto 50px;
   }
@@ -21,4 +23,8 @@
   .contact-images a:nth-child(2) {
     margin-left: 20px;
   }
+}
+
+.google-map > div {
+  z-index: -1;
 }
