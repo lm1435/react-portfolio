@@ -1,8 +1,20 @@
 @media (min-width: 0) {
+  .google-map > div {
+    z-index: -1;
+  }
   #contact {
-    text-align: center;
-    margin-top: -600px;
+    position: relative;
     color: #fff;
+    text-align: center;
+  }
+  .contact {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -50%;
+    right: 50%;
+    margin-right: -50%;
+    width: 100%;
   }
   .mail {
     color: #fff;
@@ -23,8 +35,4 @@
   .contact-images a:nth-child(2) {
     margin-left: 20px;
   }
-}
-
-.google-map > div {
-  z-index: -1;
 }

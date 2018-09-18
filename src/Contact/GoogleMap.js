@@ -82,7 +82,7 @@ export default class GoogleMap extends Component {
   }
   render() {
     return (
-      <div>
+      <div id="contact">
         <div style={{ height: '600px', width: '100%'}} className='google-map'>
           <GoogleMapReact
             bootstrapURLKeys={{
@@ -94,7 +94,9 @@ export default class GoogleMap extends Component {
           >
           </GoogleMapReact>
         </div>
-        <Contact />
+        <Contact 
+          classname="contact"
+        />
       </div>
     )
   }
