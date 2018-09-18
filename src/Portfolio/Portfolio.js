@@ -10,9 +10,9 @@ const Portfolio = () => {
       <div className="portfolio-images-wrapper">
         {portfolioData.data.map((data) => {
           return (
-            <div className="portfolio-image">
+            <div key={data.image} className="portfolio-image">
               <a href={data.link} target="_blank">
-                <img key={data.image} alt="logo" src={require(`./images/${data.image}.png`)} />
+                <img alt="logo" src={require(`./images/${data.image}.png`)} />
               </a>
               <p>{data.text}</p>
             </div>
