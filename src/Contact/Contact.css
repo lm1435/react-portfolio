@@ -30,6 +30,7 @@
 @media (min-width: 768px) {
   .contact-images {
     justify-content: center;
+    align-items: center;
   }
 
   .contact-images a:nth-child(2) {
