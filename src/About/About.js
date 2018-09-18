@@ -11,7 +11,7 @@ const About = () => {
         <div className="left">
           <Text text="Hello!, I'm Luis." />
           <Text text="An Austinite Living in Tampa, FL" />
-          <Text text="I love creating thoughtful front end designs using modern technology" />
+          <Text text="I love creating thoughtful front end designs using modern technology." />
         </div>
         <div className="right">
           <Text text={`
