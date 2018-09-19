@@ -3,18 +3,18 @@
     z-index: -1;
   }
   #contact {
-    position: relative;
     color: #fff;
+    position: relative;
     text-align: center;
   }
   .contact {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -50%;
     right: 50%;
-    margin-right: -50%;
     width: 100%;
+    margin-left: -50%;
+    margin-right: -50%;
   }
   .mail {
     color: #fff;
@@ -23,17 +23,17 @@
   }
   .contact-images {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .contact-images a:nth-child(2) {
+    margin: 20px auto;
   }
 }
 
 @media (min-width: 768px) {
-  .contact-images {
-    justify-content: center;
-    align-items: center;
-  }
-
   .contact-images a:nth-child(2) {
-    margin-left: 20px;
+    margin: 0 20px;
   }
 }

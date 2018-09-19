@@ -15,7 +15,7 @@ const Contact = (props) => {
       <div className="contact-images">
         {contactData.data.map((data) => {
             return (
-              <a key={data.text} href={data.link} target="_blank">
+              <a key={data.text} href={data.link} target="_blank" rel="noreferrer">
                 <img alt={data.text} src={require(`./images/${data.image}.png`)} />
               </a>
             )
