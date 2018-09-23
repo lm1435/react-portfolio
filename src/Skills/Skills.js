@@ -15,7 +15,7 @@ const Skills = () => {
             <img alt="logo" src={require(`./images/${image}.png`)} />
           </div>
         ))
-        };
+        }
       </div>
     </div>
 	);

@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Text = (props) => {
-  const { text } = props
+  const { children } = props
   return (
     <div>
-      {text}
+      {children}
     </div>
   );
 };

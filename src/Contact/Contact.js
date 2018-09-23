@@ -28,7 +28,7 @@ const Contact = (props) => {
             </a>
           );
         })
-        };
+        }
       </div>
     </div>
   );

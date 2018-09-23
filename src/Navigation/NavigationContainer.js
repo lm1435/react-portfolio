@@ -10,7 +10,7 @@ const NavigationContainer = () => (
       <NavigationIcon />
       {navigationData.data.map(navigationItem =>
         <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/>
-      )};
+      )}
     </ul>
   </nav>
 );
