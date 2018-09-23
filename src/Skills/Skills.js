@@ -3,18 +3,19 @@ import './Skills.css';
 import HeaderText from '../Text/HeaderText';
 
 const Skills = () => {
-	var images = [ 'html', 'css', 'javascript', 'react', 'jquery', 'bootstrap', 'gulp', 'sass' ];
+  const images = ['html', 'css', 'javascript', 'react', 'jquery', 'bootstrap', 'gulp', 'sass'];
 	return (
     <div className="skill-set" id="skills">
-      <HeaderText text="Skills" />
+      <HeaderText>
+        Skills
+      </HeaderText>
       <div className="image-wrapper">
-        {images.map((image) => {
-          return (
-            <div key={image}  className="skill-image">
-              <img alt="logo" src={require(`./images/${image}.png`)} />
-            </div>
-          );
-        })}
+        {images.map((image) => (
+          <div key={image} className="skill-image">
+            <img alt="logo" src={require(`./images/${image}.png`)} />
+          </div>
+        ))
+        };
       </div>
     </div>
 	);

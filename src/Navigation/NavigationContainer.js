@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import NavigationItem from './NavigationItem';
-import NavigationIcon from './NavigationIcon.js';
+import NavigationIcon from './NavigationIcon';
 import navigationData from './NavigationData.json';
 
 const NavigationContainer = () => (
@@ -9,9 +9,10 @@ const NavigationContainer = () => (
     <ul className="navigation-header">
       <NavigationIcon />
       {navigationData.data.map(navigationItem =>
-        <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/> )}
+        <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/>
+      )};
     </ul>
-  </nav>);
+  </nav>
+);
 
-  export default NavigationContainer;
-  
+export default NavigationContainer;
