@@ -12,6 +12,8 @@ const About = () => (
       <div className="left">
         <Text>
           Hello!, I'm Luis.
+        </Text>
+        <Text>
           An Austinite Living in Tampa, FL.
           I'm currently working as a Front End Developer for Ashley Furniture.
         </Text>
@@ -19,7 +21,11 @@ const About = () => (
       <div className="right">
         <Text>
           I love creating thoughtful front end designs using modern technology.
-          I am building innovative and complex user interfaces. 
+        </Text>
+        <Text>
+          I am building innovative and complex user interfaces.
+        </Text>
+        <Text>
           I'm currently working on learning react.
           This is a react project and will be continued to be updated, stay tuned.
         </Text>

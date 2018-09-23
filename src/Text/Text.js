@@ -1,12 +1,8 @@
 import React from 'react';
 
-const Text = (props) => {
-  const { children } = props
-  return (
-    <div>
-      {children}
-    </div>
-  );
-};
+const Text = ({ children }) =>
+  <div>
+    {children}
+  </div>
 
 export default Text;
