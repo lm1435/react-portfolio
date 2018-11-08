@@ -12,7 +12,7 @@ const Skills = () => {
       <div className="image-wrapper">
         {images.map((image) => (
           <div key={image} className="skill-image">
-            <img alt="logo" src={require(`./images/${image}.png`)} />
+            <img alt={image + " logo"} src={require(`./images/${image}.png`)} />
           </div>
         ))
         }
