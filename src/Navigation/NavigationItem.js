@@ -1,6 +1,11 @@
 import React from 'react';
 
-const NavigationItem = ({ url, linkText }) =>
+const NavigationItem = ({ 
+  navigation: {
+    url,
+    linkText
+  } 
+}) =>
   <li>
     <a href={url}>
       {linkText}

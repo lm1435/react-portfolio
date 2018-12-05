@@ -9,7 +9,7 @@ const NavigationContainer = () => (
     <ul className="navigation-header">
       <NavigationIcon />
       {navigationData.data.map(navigationItem =>
-        <NavigationItem key={navigationItem.linkText} navigation={navigationItem.navigation}/>
+        <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/>
       )}
     </ul>
   </nav>
