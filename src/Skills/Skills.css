@@ -11,6 +11,9 @@
     padding: 4% 0;
     text-align: center;
   }
+  .skill-image:hover {
+    opacity: .7;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
