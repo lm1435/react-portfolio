@@ -11,7 +11,7 @@ const Contact = ({ classname }) =>
       Contact
     </HeaderText>
     <Text>
-      Im currently working at Ashley Furniture, building amazing user experiences.
+      Im currently working at Michaels, building amazing user experiences.
     </Text>
     <Text>
       Feel free to reach out to me.

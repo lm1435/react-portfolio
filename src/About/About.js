@@ -9,27 +9,22 @@ const About = () => (
       About Me
     </HeaderText>
     <div className="about-me-text">
-      <div className="left">
         <Text>
           Hello!, I'm Luis.
         </Text>
         <Text>
-          An Austinite Living in Tampa, FL.
-          I'm currently working as a Front End Developer for Ashley Furniture.
+          I'm currently working as a Front End Developer for Michaels.
         </Text>
-      </div>
-      <div className="right">
         <Text>
           I love creating thoughtful front end designs using modern technology.
         </Text>
         <Text>
-          I am building innovative and complex user interfaces.
+          I'm currently building complex user interfaces.
         </Text>
         <Text>
-          I'm currently working on learning react.
+          I'm working on mastering React.
           This is a react project and will be continued to be updated, stay tuned.
         </Text>
-      </div>
     </div>
   </div>
 );

@@ -5,9 +5,9 @@ import Contact from './Contact';
 export default class GoogleMap extends Component {
   static defaultProps = {
     center: {
-      lat: 27.9345, lng: -82.4572
+      lat: 33.0507, lng: -96.818733
     },
-    zoom: 13,
+    zoom: 11,
     options: {
       mapTypeControl: false,
       disableDoubleClickZoom: true,

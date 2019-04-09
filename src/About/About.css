@@ -12,23 +12,7 @@
 @media(min-width: 768px) {
   .about-me-text {
     width: 100%;
-    display: flex;
     font-weight: 500;
     font-size: 1.1em;
-    justify-content: space-around;
-  }
-  
-  .left {
-    width: 30%;
-    text-align: left;
-  }
-  
-  .left div {
-    margin-bottom: 10px;
-  }
-  
-  .right {
-    width: 30%;
-    text-align: right;
   }
 }
