@@ -1,9 +1,9 @@
 { 
   "data": [
     {
-      "image": "ashley-furniture",
-      "text": "Ashley Furniture cart redesign to help customers through the check out process.",
-      "link": "https://ashleyfurniture.com"
+      "image": "movie-app",
+      "text": "Movie app built with React",
+      "link": "https://movieapp.luismeza.io"
     },
     {
       "image": "old-portfolio",

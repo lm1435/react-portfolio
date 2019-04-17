@@ -14,7 +14,7 @@ const Portfolio = () => (
         return (
           <div key={image} className="portfolio-image">
             <a href={link} target="_blank" rel="noopener noreferrer">
-              <img alt={image + " logo"} src={require(`./images/${image}.png`)} />
+              <img alt={`${image} logo`} src={require(`./images/${image}.png`)} />
             </a>
             <p>{text}</p>
           </div>
