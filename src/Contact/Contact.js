@@ -5,13 +5,13 @@ import Text from '../Text/Text';
 import contactData from './Contact.json';
 
 
-const Contact = ({ classname }) => 
-  <div className={classname}>
+const Contact = ({ classname }) => (
+<div className={classname}>
     <HeaderText color="white">
       Contact
     </HeaderText>
     <Text>
-      Im currently working at Michaels, building amazing user experiences.
+      Im currently working at PrimeLending, building amazing web apps.
     </Text>
     <Text>
       Feel free to reach out to me.
@@ -29,5 +29,4 @@ const Contact = ({ classname }) =>
       }
     </div>
   </div>
-
-export default Contact;
+)export default Contact;
