@@ -19,7 +19,7 @@ const About = () => (
           I love creating thoughtful front end designs using modern technology.
       </Text>
       <Text>
-          I'm currently building complex Web Apps in React and Angular
+          I'm currently building complex web apps in React and Angular
       </Text>
       <Text>
           This is a react project and will be continued to be updated, stay tuned.

@@ -6,7 +6,7 @@ import contactData from './Contact.json';
 
 
 const Contact = ({ classname }) => (
-<div className={classname}>
+  <div className={classname}>
     <HeaderText color="white">
       Contact
     </HeaderText>
@@ -29,4 +29,6 @@ const Contact = ({ classname }) => (
       }
     </div>
   </div>
-)export default Contact;
+);
+
+export default Contact;
