@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import './About.css';
 import Text from '../Text/Text';
@@ -10,7 +11,7 @@ const About = () => (
     </HeaderText>
     <div className="about-me-text">
       <Text>
-          Hello!, I'm Luis.
+          Hello, I'm Luis.
       </Text>
       <Text>
           I'm currently working as a Front End Developer for PrimeLending.
