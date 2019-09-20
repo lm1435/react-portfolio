@@ -1,8 +1,9 @@
-import React from 'react';
+import { Component } from 'react';
+import './Text.css';
 
-const Text = ({ children }) =>
-  <p>
-    {children}
-  </p>
-
-export default Text;
+export default class Text extends Component {
+  render() {
+    const { children } = this.props;
+    return children();
+  }
+}

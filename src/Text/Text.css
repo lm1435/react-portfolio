@@ -1,5 +1,5 @@
 @media (min-width: 0) {
-  .header {
+  h3 {
     text-align: center;
     font-size: 2em;
     color: grey;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 768px) {
-  .header {
+  h3 {
     font-size: 3em;  
     padding: 1em;  
   }

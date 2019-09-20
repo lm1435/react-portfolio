@@ -1,20 +1,28 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './Contact.css';
-import HeaderText from '../Text/HeaderText';
 import Text from '../Text/Text';
 import contactData from './Contact.json';
 
 
 const Contact = ({ classname }) => (
   <div className={classname}>
-    <HeaderText color="white">
-      Contact
-    </HeaderText>
     <Text>
-      Im currently working at PrimeLending, building amazing web apps.
+      {() => (
+        <h3 style={{ color: 'white' }}>
+          Contact
+        </h3>
+      )}
     </Text>
     <Text>
-      Feel free to reach out to me.
+      {() => (
+        <Fragment>
+          <p>
+            Im currently working at PrimeLending, building amazing web apps.
+          </p>
+          <p>
+            Feel free to reach out to me.
+          </p>
+        </Fragment>)}
     </Text>
     <a className="mail" href="mailto:luismeza01@gmail.com?subject=You're AWESOME!, we should connect">Email me</a>
     <div className="contact-images">

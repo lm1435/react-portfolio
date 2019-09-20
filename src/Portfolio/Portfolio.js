@@ -1,13 +1,17 @@
 import React from 'react';
 import './Portfolio.css';
-import HeaderText from '../Text/HeaderText';
+import Text from '../Text/Text';
 import portfolioData from './Portfolio.json';
 
 const Portfolio = () => (
   <div id="portfolio">
-    <HeaderText>
-      Portfolio
-    </HeaderText>
+    <Text>
+      {() => (
+        <h3>
+          Portfolio
+        </h3>
+      )}
+    </Text>
     <div className="portfolio-images-wrapper">
       {portfolioData.data.map((data) => {
         const { image, link, text } = data;
