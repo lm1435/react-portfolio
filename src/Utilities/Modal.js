@@ -1,14 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import Portal from '../Portal/Portal';
-import Icon from '../Utilities/Icon';
+import Portal from './Portal';
+import Icon from './Icon';
 
 const Modal = ({ children, on, toggle }) => (
   <Portal>
     {on && (
       <ModalWrapper>
         <ModalCard>
-          <CloseButton onClick={toggle}><Icon name="close" /></CloseButton>
+          <CloseButton onClick={toggle}>
+            <Icon name="close" />
+          </CloseButton>
           <div>{children}</div>
         </ModalCard>
         <Background onClick={toggle} />

@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import './Portfolio.css';
 import Text from '../Text/Text';
 import portfolioData from './Portfolio.json';
-import Toggle from '../Toggle/Toggle';
-import Modal from '../Modal/Modal';
+import Toggle from '../Utilities/Toggle';
+import Modal from '../Utilities/Modal';
 
 const Portfolio = () => (
   <div id="portfolio">
