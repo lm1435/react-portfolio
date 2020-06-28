@@ -8,9 +8,9 @@ const NavigationContainer = () => (
   <nav>
     <ul className="navigation-header">
       <NavigationIcon />
-      {navigationData.data.map(navigationItem =>
-        <NavigationItem key={navigationItem.linkText} navigation={navigationItem}/>
-      )}
+      {navigationData.data.map(navigationItem => (
+        <NavigationItem key={navigationItem.linkText} navigation={navigationItem} />
+      ))}
     </ul>
   </nav>
 );

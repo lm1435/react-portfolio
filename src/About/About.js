@@ -17,21 +17,22 @@ const About = () => (
         {() => (
           <Fragment>
             <p>
-            Hello, I'm Luis.
+              Hello, I'm Luis.
             </p>
             <p>
-            I'm currently working as a Front End Developer for PrimeLending.
+              I'm currently working as a Senior Front End Developer for Kobie.
             </p>
             <p>
-            I love creating thoughtful front end designs using modern technology.
+              I love creating thoughtful front end designs using modern technology.
             </p>
             <p>
-            I'm currently building complex web apps in React and Angular
+              I'm currently building complex web apps in React and Angular
             </p>
             <p>
-            This is a react project and will be continued to be updated, stay tuned.
+              This is a React project and will be continued to be updated, stay tuned.
             </p>
-          </Fragment>)}
+          </Fragment>
+        )}
       </Text>
     </div>
   </div>

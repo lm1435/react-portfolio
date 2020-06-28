@@ -13,7 +13,7 @@ const HeroImage = () => (
         Luis Meza
       </h1>
       <h2>
-        Front End Developer
+        Senior Front End Developer
       </h2>
       <p>
         Pluviophile

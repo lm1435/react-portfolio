@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import Contact from './Contact';
 
-export default class GoogleMap extends Component {
-  static defaultProps = {
+const GoogleMaps = () => {
+  const defaultProps = {
     center: {
-      lat: 33.0507, lng: -96.818733
+      lat: 30.433167, lng: -97.683954,
     },
     zoom: 11,
     options: {
@@ -17,87 +17,87 @@ export default class GoogleMap extends Component {
       styles: [{
         elementType: 'geometry',
         stylers: [{
-          color: '#242f3e'
-        }]
+          color: '#242f3e',
+        }],
       }, {
         elementType: 'labels.text.stroke',
         stylers: [{
-          color: '#242f3e'
-        }]
+          color: '#242f3e',
+        }],
       }, {
         elementType: 'labels.text.fill',
         stylers: [{
-          color: '#746855'
-        }]
+          color: '#746855',
+        }],
       }, {
         featureType: 'road',
         elementType: 'geometry',
         stylers: [{
-          color: '#38414e'
-        }]
+          color: '#38414e',
+        }],
       }, {
-        featureType: "road",
-        elementType: "labels",
+        featureType: 'road',
+        elementType: 'labels',
         stylers: [{
-          visibility: "off"
-        }]
+          visibility: 'off',
+        }],
       }, {
-        featureType: "poi",
-        elementType: "labels",
+        featureType: 'poi',
+        elementType: 'labels',
         stylers: [{
-          visibility: "off"
-        }]
+          visibility: 'off',
+        }],
       }, {
-        featureType: "transit",
-        elementType: "all",
+        featureType: 'transit',
+        elementType: 'all',
         stylers: [{
-          visibility: "off"
-        }]
+          visibility: 'off',
+        }],
       }, {
         featureType: 'road.highway',
         elementType: 'geometry',
         stylers: [{
-          color: '#746855'
-        }]
+          color: '#746855',
+        }],
       }, {
         featureType: 'road.highway',
         elementType: 'geometry.stroke',
         stylers: [{
-          color: '#1f2835'
-        }]
+          color: '#1f2835',
+        }],
       }, {
         featureType: 'water',
         elementType: 'geometry',
         stylers: [{
-          color: '#17263c'
-        }]
+          color: '#17263c',
+        }],
       }, {
         featureType: 'water',
         elementType: 'labels.text.stroke',
         stylers: [{
-          color: '#17263c'
-        }]
-      }]
-    }
-  }
-  render() {
-    return (
-      <div id="contact">
-        <div style={{ height: '600px', width: '100%'}} className='google-map'>
-          <GoogleMapReact
-            bootstrapURLKeys={{
-                key: 'AIzaSyAHBoqUIgcGO-G7ckPcxpPhiZI2h-cXGcI'
-            }}
-            defaultCenter={ this.props.center }
-            defaultZoom={ this.props.zoom }
-            options = { this.props.options }
-          >
-          </GoogleMapReact>
-        </div>
-        <Contact 
-          classname="contact"
+          color: '#17263c',
+        }],
+      }],
+    },
+  };
+
+  return (
+    <div id="contact">
+      <div style={{ height: '600px', width: '100%' }} className="google-map">
+        <GoogleMapReact
+          bootstrapURLKeys={{
+            key: 'AIzaSyAHBoqUIgcGO-G7ckPcxpPhiZI2h-cXGcI',
+          }}
+          defaultCenter={defaultProps.center}
+          defaultZoom={defaultProps.zoom}
+          options={defaultProps.options}
         />
       </div>
-    )
-  }
-}
+      <Contact
+        classname="contact"
+      />
+    </div>
+  );
+};
+
+export default GoogleMaps;

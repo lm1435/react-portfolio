@@ -22,7 +22,8 @@ const Contact = ({ classname }) => (
           <p>
             Feel free to reach out to me.
           </p>
-        </Fragment>)}
+        </Fragment>
+      )}
     </Text>
     <a className="mail" href="mailto:luismeza01@gmail.com?subject=You're AWESOME!, we should connect">Email me</a>
     <div className="contact-images">
