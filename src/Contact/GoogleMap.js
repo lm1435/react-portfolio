@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import Contact from './Contact';
+import REACT_APP_MAPS_API_KEY from '../.env';
 
 const GoogleMaps = () => {
   const defaultProps = {
@@ -86,7 +87,7 @@ const GoogleMaps = () => {
       <div style={{ height: '600px', width: '100%' }} className="google-map">
         <GoogleMapReact
           bootstrapURLKeys={{
-            key: 'AIzaSyAHBoqUIgcGO-G7ckPcxpPhiZI2h-cXGcI',
+            key: REACT_APP_MAPS_API_KEY,
           }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
