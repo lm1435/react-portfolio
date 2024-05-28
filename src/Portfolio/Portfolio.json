@@ -3,12 +3,12 @@
     {
       "image": "movie-app",
       "text": "Movie app built with React",
-      "link": "https://movieapp.luismeza.io"
+      "link": "https://movie.luismeza.com"
     },
     {
-      "image": "old-portfolio",
-      "text": "Old portfolio website created in Jquery, HTML and CSS.",
-      "link": "http://old.luismeza.io"
+      "image": "sample",
+      "text": "Sample app built with React",
+      "link": "http://sample.luismeza.com"
     },
     {
       "image": "erin-condren",

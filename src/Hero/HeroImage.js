@@ -13,13 +13,13 @@ const HeroImage = () => (
         Luis Meza
       </h1>
       <h2>
-        Senior Front End Developer
+        Software Engineering Leader
       </h2>
       <p>
-        Pluviophile
+        Hiking Trail Explorer
       </p>
       <p>
-        Tech Enthusiast
+        Tech and Cloud Enthusiast
       </p>
     </div>
   </div>

@@ -20,13 +20,13 @@ const About = () => (
               Hello, I'm Luis.
             </p>
             <p>
-              I'm currently working as a Senior Front End Developer for Kobie.
+              I'm currently working as a Software Engineering Manager/Tech Lead at Highland Ag.
             </p>
             <p>
-              I love creating thoughtful front end designs using modern technology.
+              I love creating innovative applications using modern technology.
             </p>
             <p>
-              I'm currently building complex web apps in React and Angular
+              I'm currently building complex web apps in C# and Angular as well as mentoring a team of 5
             </p>
             <p>
               This is a React project and will be continued to be updated, stay tuned.
