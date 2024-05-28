@@ -17,7 +17,7 @@ const Contact = ({ classname }) => (
       {() => (
         <Fragment>
           <p>
-            Im currently working at Kobie, building amazing web apps.
+            Im currently working on making the world a better place.
           </p>
           <p>
             Feel free to reach out to me.

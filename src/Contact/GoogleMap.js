@@ -6,7 +6,7 @@ const GoogleMaps = () => {
   const API_KEY = process.env && process.env.REACT_APP_MAPS_API_KEY;
   const defaultProps = {
     center: {
-      lat: 30.433167, lng: -97.683954,
+      lat: 38.8339, lng: 104.8214,
     },
     zoom: 11,
     options: {
